@@ -9,5 +9,4 @@ class GameData(models.Model):
 	oppt = models.CharField(max_length=3)
 	points_for = models.PositiveIntegerField()
 	points_against = models.PositiveIntegerField()
-
-
+	top_scorer = models.CharField(max_length=30)
